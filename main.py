@@ -1,4 +1,15 @@
 from DS_Ops import logger
+from DS_Ops.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 
 
-logger.info("Welcome to our custom logging module!")
+STAGE_NAME = "Data Ingestion Stage"
+
+
+try:
+    logger.info(f">>>>>>>>>>>>>>>>>> stage {STAGE_NAME} started <<<<<<<<<<<<<<<<")
+    obj = DataIngestionTrainingPipeline()
+    obj.main()
+    logger.info(f">>>>>>>>>>>>>>>>>> stage {STAGE_NAME} completed <<<<<<<<<<<<<<<<")
+except Exception as e:
+    logger.exception(e)
+    raise e

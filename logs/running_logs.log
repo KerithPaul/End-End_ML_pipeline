@@ -1,2 +1,37 @@
 [2025-05-17 07:27:02,728]: INFO: __init__: Logging setup complete.]
 [2025-05-17 07:27:02,728]: INFO: main: Welcome to our custom logging module!]
+[2025-05-19 17:39:38,736]: INFO: __init__: Logging setup complete.]
+[2025-05-19 17:39:40,356]: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Ingestion Stage started <<<<<<<<<<<<<<<<]
+[2025-05-19 17:39:40,356]: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-19 17:39:40,356]: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-19 17:39:40,356]: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-05-19 17:39:40,361]: INFO: common: created directory at: ./artifacts]
+[2025-05-19 17:39:40,361]: INFO: common: created directory at: ./artifacts/data_ingestion]
+[2025-05-19 17:39:41,097]: INFO: data_ingestion: artifacts\data_ingestion\winequality-red.zip download! with following info: Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "b92befccee872c4886a7387385b914c9a2652ab5bd49787562ef6946c157a90c"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 9294:3BD008:38FB9E:8FD645:682B1BC6
+Accept-Ranges: bytes
+Date: Mon, 19 May 2025 12:09:41 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100034-HYD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1747656581.886366,VS0,VE275
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: fe5ca02502714ee972a05091d0f41519484ab916
+Expires: Mon, 19 May 2025 12:14:41 GMT
+Source-Age: 0
+
+]
+[2025-05-19 17:39:41,132]: INFO: data_ingestion: Extracted all the files in artifacts\data_ingestion]
+[2025-05-19 17:39:41,132]: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Ingestion Stage completed <<<<<<<<<<<<<<<<]
