@@ -1,1 +1,274 @@
 [2025-05-18 19:36:03,039]: INFO: __init__: Logging setup complete.]
+[2025-05-19 17:08:16,191]: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-19 17:08:16,206]: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-19 17:08:16,206]: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-05-19 17:08:16,213]: INFO: common: created directory at: ./artifacts]
+[2025-05-19 17:08:16,217]: ERROR: 3488449060: "'ConfigBox' object has no attribute 'data_ingestion'"]
+Traceback (most recent call last):
+  File "box\\box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'data_ingestion'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+  File "box\\box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_ingestion'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_ingestion'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_ingestion'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'data_ingestion'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+  File "box\\box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_ingestion'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_ingestion'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kerit\AppData\Local\Temp\ipykernel_22968\3488449060.py", line 3, in <module>
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kerit\AppData\Local\Temp\ipykernel_22968\4174013136.py", line 16, in get_data_ingestion_config
+    config = self.config.data_ingestion
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "box\\config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_ingestion'"
+[2025-05-19 17:16:00,528]: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-19 17:16:00,528]: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-19 17:16:00,531]: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-05-19 17:16:00,531]: INFO: common: created directory at: ./artifacts]
+[2025-05-19 17:16:00,531]: ERROR: 3488449060: "'ConfigBox' object has no attribute 'data_ingestion'"]
+Traceback (most recent call last):
+  File "box\\box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'data_ingestion'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+  File "box\\box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_ingestion'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_ingestion'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_ingestion'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'data_ingestion'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+  File "box\\box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_ingestion'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_ingestion'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kerit\AppData\Local\Temp\ipykernel_22968\3488449060.py", line 3, in <module>
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kerit\AppData\Local\Temp\ipykernel_22968\4174013136.py", line 16, in get_data_ingestion_config
+    config = self.config.data_ingestion
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "box\\config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_ingestion'"
+[2025-05-19 17:18:55,396]: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-19 17:18:55,396]: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-19 17:18:55,403]: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-05-19 17:18:55,403]: INFO: common: created directory at: ./artifacts]
+[2025-05-19 17:18:55,403]: ERROR: 3488449060: "'ConfigBox' object has no attribute 'data_ingestion'"]
+Traceback (most recent call last):
+  File "box\\box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'data_ingestion'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+  File "box\\box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_ingestion'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_ingestion'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_ingestion'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'data_ingestion'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+  File "box\\box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_ingestion'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_ingestion'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kerit\AppData\Local\Temp\ipykernel_22968\3488449060.py", line 3, in <module>
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kerit\AppData\Local\Temp\ipykernel_22968\4174013136.py", line 16, in get_data_ingestion_config
+    config = self.config.data_ingestion
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "box\\config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_ingestion'"
+[2025-05-19 17:21:44,995]: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-19 17:21:44,995]: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-19 17:21:44,995]: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-05-19 17:21:45,002]: INFO: common: created directory at: ./artifacts]
+[2025-05-19 17:21:45,002]: INFO: common: created directory at: ./artifacts/data_ingestion]
+[2025-05-19 17:21:45,002]: ERROR: 3488449060: "'ConfigBox' object has no attribute 'source_url'"]
+Traceback (most recent call last):
+  File "box\\box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'source_url'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+  File "box\\box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'source_url'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'source_url'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'source_url'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'source_url'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+  File "box\\box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'source_url'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'source_url'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kerit\AppData\Local\Temp\ipykernel_22968\3488449060.py", line 3, in <module>
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kerit\AppData\Local\Temp\ipykernel_22968\4174013136.py", line 21, in get_data_ingestion_config
+    source_url = config.source_url,
+                 ^^^^^^^^^^^^^^^^^
+  File "box\\config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'source_url'"
+[2025-05-19 17:23:41,787]: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-19 17:23:41,789]: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-19 17:23:41,791]: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-05-19 17:23:41,791]: INFO: common: created directory at: ./artifacts]
+[2025-05-19 17:23:41,791]: INFO: common: created directory at: ./artifacts/data_ingestion]
+[2025-05-19 17:23:42,586]: INFO: 1895107213: artifacts\data_ingestion\winequality-red.zip download! with following info: Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "b92befccee872c4886a7387385b914c9a2652ab5bd49787562ef6946c157a90c"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 9294:3BD008:38FB9E:8FD645:682B1BC6
+Accept-Ranges: bytes
+Date: Mon, 19 May 2025 11:53:42 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100020-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1747655622.329518,VS0,VE287
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: c6b567b417fcef34124c7398e6fd9039078ed5ba
+Expires: Mon, 19 May 2025 11:58:42 GMT
+Source-Age: 0
+
+]
+[2025-05-19 17:23:42,631]: INFO: 1895107213: Extracted all the files in artifacts\data_ingestion]
