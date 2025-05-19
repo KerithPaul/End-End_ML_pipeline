@@ -35,3 +35,109 @@ Source-Age: 0
 ]
 [2025-05-19 17:39:41,132]: INFO: data_ingestion: Extracted all the files in artifacts\data_ingestion]
 [2025-05-19 17:39:41,132]: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Ingestion Stage completed <<<<<<<<<<<<<<<<]
+[2025-05-19 17:54:36,071]: INFO: __init__: Logging setup complete.]
+[2025-05-19 17:54:36,461]: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Ingestion Stage started <<<<<<<<<<<<<<<<]
+[2025-05-19 17:54:36,461]: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-19 17:54:36,461]: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-19 17:54:36,461]: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-05-19 17:54:36,461]: INFO: common: created directory at: ./artifacts]
+[2025-05-19 17:54:36,476]: INFO: common: created directory at: ./artifacts/data_ingestion]
+[2025-05-19 17:54:37,217]: INFO: data_ingestion: artifacts\data_ingestion\winequality-red.zip download! with following info: Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "b92befccee872c4886a7387385b914c9a2652ab5bd49787562ef6946c157a90c"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 9294:3BD008:38FB9E:8FD645:682B1BC6
+Accept-Ranges: bytes
+Date: Mon, 19 May 2025 12:24:37 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100026-HYD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1747657477.987093,VS0,VE310
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: ab5a17bbcad3eed24f2c16979bf83c0f9a994623
+Expires: Mon, 19 May 2025 12:29:37 GMT
+Source-Age: 0
+
+]
+[2025-05-19 17:54:37,249]: INFO: data_ingestion: Extracted all the files in artifacts\data_ingestion]
+[2025-05-19 17:54:37,249]: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Ingestion Stage completed <<<<<<<<<<<<<<<<]
+[2025-05-19 18:27:10,280]: INFO: __init__: Logging setup complete.]
+[2025-05-19 18:56:05,585]: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-19 18:56:05,594]: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-19 18:56:05,637]: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-05-19 18:56:05,637]: INFO: common: created directory at: ./artifacts]
+[2025-05-19 18:56:05,645]: INFO: common: created directory at: artifacts/data_validation]
+[2025-05-19 18:56:54,676]: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-19 18:56:54,677]: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-19 18:56:54,682]: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-05-19 18:56:54,683]: INFO: common: created directory at: ./artifacts]
+[2025-05-19 18:56:54,683]: INFO: common: created directory at: artifacts/data_validation]
+[2025-05-19 18:57:52,782]: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-19 18:57:52,783]: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-19 18:57:52,783]: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-05-19 18:57:52,790]: INFO: common: created directory at: ./artifacts]
+[2025-05-19 18:57:52,790]: INFO: common: created directory at: artifacts/data_validation]
+[2025-05-19 18:59:21,547]: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-19 18:59:21,552]: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-19 18:59:21,553]: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-05-19 18:59:21,553]: INFO: common: created directory at: ./artifacts]
+[2025-05-19 18:59:21,553]: INFO: common: created directory at: artifacts/data_validation]
+[2025-05-19 18:59:21,553]: INFO: 1380442175: Validating all columns in the dataset]
+[2025-05-19 19:01:07,384]: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-19 19:01:07,384]: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-19 19:01:07,388]: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-05-19 19:01:07,392]: INFO: common: created directory at: ./artifacts]
+[2025-05-19 19:01:07,392]: INFO: common: created directory at: artifacts/data_validation]
+[2025-05-19 19:01:07,392]: INFO: 2107705497: Validating all columns in the dataset]
+[2025-05-19 22:03:14,545]: INFO: __init__: Logging setup complete.]
+[2025-05-19 22:03:18,515]: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Ingestion Stage started <<<<<<<<<<<<<<<<]
+[2025-05-19 22:03:18,534]: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-19 22:03:18,555]: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-19 22:03:18,565]: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-05-19 22:03:18,565]: INFO: common: created directory at: ./artifacts]
+[2025-05-19 22:03:18,565]: INFO: common: created directory at: ./artifacts/data_ingestion]
+[2025-05-19 22:03:19,415]: INFO: data_ingestion: artifacts\data_ingestion\winequality-red.zip download! with following info: Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "b92befccee872c4886a7387385b914c9a2652ab5bd49787562ef6946c157a90c"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 3722:307A63:270828:5D653B:682B5D4F
+Accept-Ranges: bytes
+Date: Mon, 19 May 2025 16:33:20 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100021-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1747672400.649433,VS0,VE354
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 37d279bcb9578d2a759d587875bcbf507a640146
+Expires: Mon, 19 May 2025 16:38:20 GMT
+Source-Age: 0
+
+]
+[2025-05-19 22:03:19,451]: INFO: data_ingestion: Extracted all the files in artifacts\data_ingestion]
+[2025-05-19 22:03:19,451]: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Ingestion Stage completed <<<<<<<<<<<<<<<<]
+[2025-05-19 22:03:19,451]: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Validation Stage started <<<<<<<<<<<<<<<<]
+[2025-05-19 22:03:19,455]: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-19 22:03:19,455]: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-19 22:03:19,455]: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-05-19 22:03:19,455]: INFO: common: created directory at: ./artifacts]
+[2025-05-19 22:03:19,455]: INFO: common: created directory at: artifacts/data_validation]
+[2025-05-19 22:03:19,455]: INFO: data_validation: Validating all columns in the dataset]
+[2025-05-19 22:03:19,492]: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Validation Stage completed <<<<<<<<<<<<<<<<]
