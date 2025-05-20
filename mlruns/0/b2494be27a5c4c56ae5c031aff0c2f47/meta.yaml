@@ -1,0 +1,15 @@
+artifact_uri: file:///k:/Environments/End-End_ML_pipeline/mlruns/0/b2494be27a5c4c56ae5c031aff0c2f47/artifacts
+end_time: 1747759368757
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b2494be27a5c4c56ae5c031aff0c2f47
+run_name: gentle-foal-704
+run_uuid: b2494be27a5c4c56ae5c031aff0c2f47
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747759358623
+status: 3
+tags: []
+user_id: kerit

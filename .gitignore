@@ -127,6 +127,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+\dsops
 
 # Spyder project settings
 .spyderproject
