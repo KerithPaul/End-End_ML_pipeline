@@ -447,3 +447,71 @@ AttributeError: 'ModelEvaluation' object has no attribute 'train'
 [2025-05-20 22:37:49,873]: INFO: common: created directory at: artifacts/model_evaluation]
 [2025-05-20 22:37:50,830]: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
 [2025-05-20 22:37:57,101]: INFO: main: >>>>>>>>>>>>>>>>>> stage Model Evaluation Stage completed <<<<<<<<<<<<<<<<]
+[2025-06-04 18:27:06,078]: INFO: __init__: Logging setup complete.]
+[2025-06-04 18:27:27,145]: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Ingestion Stage started <<<<<<<<<<<<<<<<]
+[2025-06-04 18:27:27,151]: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-06-04 18:27:27,151]: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-04 18:27:27,151]: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-06-04 18:27:27,151]: INFO: common: created directory at: ./artifacts]
+[2025-06-04 18:27:27,151]: INFO: common: created directory at: ./artifacts/data_ingestion]
+[2025-06-04 18:27:27,913]: INFO: data_ingestion: artifacts\data_ingestion\winequality-red.zip download! with following info: Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "b92befccee872c4886a7387385b914c9a2652ab5bd49787562ef6946c157a90c"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: FB12:2388F8:35844:61241:684042B8
+Accept-Ranges: bytes
+Date: Wed, 04 Jun 2025 12:57:29 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100026-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1749041849.895623,VS0,VE323
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: b4cde64d9e9f125fab8e700cc47ae7c07e3fead4
+Expires: Wed, 04 Jun 2025 13:02:29 GMT
+Source-Age: 0
+
+]
+[2025-06-04 18:27:27,917]: INFO: data_ingestion: Extracted all the files in artifacts\data_ingestion]
+[2025-06-04 18:27:27,919]: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Ingestion Stage completed <<<<<<<<<<<<<<<<]
+[2025-06-04 18:27:27,920]: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Validation Stage started <<<<<<<<<<<<<<<<]
+[2025-06-04 18:27:27,922]: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-06-04 18:27:27,922]: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-04 18:27:27,926]: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-06-04 18:27:27,927]: INFO: common: created directory at: ./artifacts]
+[2025-06-04 18:27:27,927]: INFO: common: created directory at: artifacts/data_validation]
+[2025-06-04 18:27:27,927]: INFO: data_validation: Validating all columns in the dataset]
+[2025-06-04 18:27:27,937]: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Validation Stage completed <<<<<<<<<<<<<<<<]
+[2025-06-04 18:27:27,937]: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Transformation Stage started <<<<<<<<<<<<<<<<]
+[2025-06-04 18:27:27,941]: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-06-04 18:27:27,942]: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-04 18:27:27,942]: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-06-04 18:27:27,942]: INFO: common: created directory at: ./artifacts]
+[2025-06-04 18:27:27,942]: INFO: common: created directory at: artifacts/data_transformation]
+[2025-06-04 18:27:27,972]: INFO: data_transformation: Splitted data into training and test sets]
+[2025-06-04 18:27:27,972]: INFO: data_transformation: (1199, 12)]
+[2025-06-04 18:27:27,976]: INFO: data_transformation: (400, 12)]
+[2025-06-04 18:27:27,976]: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Transformation Stage completed <<<<<<<<<<<<<<<<]
+[2025-06-04 18:27:27,976]: INFO: main: >>>>>>>>>>>>>>>>>> stage Model Training Stage started <<<<<<<<<<<<<<<<]
+[2025-06-04 18:27:27,980]: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-06-04 18:27:27,980]: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-04 18:27:27,983]: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-06-04 18:27:27,984]: INFO: common: created directory at: ./artifacts]
+[2025-06-04 18:27:27,985]: INFO: common: created directory at: artifacts/model_trainer]
+[2025-06-04 18:27:28,000]: INFO: main: >>>>>>>>>>>>>>>>>> stage Model Training Stage completed <<<<<<<<<<<<<<<<]
+[2025-06-04 18:27:28,001]: INFO: main: >>>>>>>>>>>>>>>>>> stage Model Evaluation Stage started <<<<<<<<<<<<<<<<]
+[2025-06-04 18:27:28,004]: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-06-04 18:27:28,005]: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-04 18:27:28,008]: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-06-04 18:27:28,008]: INFO: common: created directory at: ./artifacts]
+[2025-06-04 18:27:28,008]: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-06-04 18:27:29,136]: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2025-06-04 18:27:35,093]: INFO: main: >>>>>>>>>>>>>>>>>> stage Model Evaluation Stage completed <<<<<<<<<<<<<<<<]

@@ -8,8 +8,6 @@ import numpy as np
 import joblib
 from pathlib import Path
 
-
-import mlflow.sklearn
 from DS_Ops.utils.common import save_json
 from DS_Ops.entity.config_entity import ModelEvaluationConfig
 
