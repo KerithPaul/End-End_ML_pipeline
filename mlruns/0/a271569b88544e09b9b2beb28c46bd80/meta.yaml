@@ -1,0 +1,15 @@
+artifact_uri: file:///k:/Environments/End-End_ML_pipeline/mlruns/0/a271569b88544e09b9b2beb28c46bd80/artifacts
+end_time: 1749043848771
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a271569b88544e09b9b2beb28c46bd80
+run_name: orderly-whale-621
+run_uuid: a271569b88544e09b9b2beb28c46bd80
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749043843917
+status: 3
+tags: []
+user_id: Kerith

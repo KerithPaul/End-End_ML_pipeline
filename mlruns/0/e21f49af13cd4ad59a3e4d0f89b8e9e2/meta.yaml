@@ -1,0 +1,15 @@
+artifact_uri: file:///k:/Environments/End-End_ML_pipeline/mlruns/0/e21f49af13cd4ad59a3e4d0f89b8e9e2/artifacts
+end_time: 1749043804355
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e21f49af13cd4ad59a3e4d0f89b8e9e2
+run_name: gaudy-fox-475
+run_uuid: e21f49af13cd4ad59a3e4d0f89b8e9e2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749043799102
+status: 3
+tags: []
+user_id: Kerith
